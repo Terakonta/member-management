@@ -1,0 +1,17 @@
+EXAMPLE COMMANDS BEFORE STARTING.
+
+
+1. Creating the user database:
+==============================
+CREATE TABLE testing(id SERIAL PRIMARY KEY NOT NULL, 
+                     email VARCHAR(200) NOT NULL, 
+                     password VARCHAR(200) NOT NULL, 
+                     password_salt VARCHAR(200) NOT NULL, 
+                     datecreated TIMESTAMP NOT NULL, 
+                     isremoved BOOLEAN NOT NULL, 
+                     isadmin BOOLEAN NOT NULL);
+
+2. Adding admin to the database before running the application:
+===============================================================
+INSERT INTO testfinal(email, password, password_salt, datecreated, isremoved, isadmin) 
+VALUES ('1', '1', '1', NOW(), FALSE, TRUE);
