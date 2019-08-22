@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1566391707 source:e:\sqlapi practice\final_project\main.cpp
+	<stdio.h>
+	<iostream>
+	<SQLAPI.h>
+	<string>
+	"User.h"
+	"Management.h"
+
+1566278436 source:e:\sqlapi practice\final_project\src\user.cpp
+	"User.h"
+	<string>
+
+1566212758 e:\sqlapi practice\final_project\include\user.h
+	<string>
+
+1566451290 e:\sqlapi practice\final_project\include\management.h
+	"User.h"
+	<SQLAPI.h>
+	<string>
+
+1566452822 source:e:\sqlapi practice\final_project\src\management.cpp
+	"Management.h"
+	<iostream>
+	<SQLAPI.h>
+	"User.h"
+	<string>
+
