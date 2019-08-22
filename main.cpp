@@ -184,7 +184,7 @@ int main(int argc, char *argv[])
                         getline(cin, id);
                         while(id.length() == 0)
                         {
-                            cout << "Invalid Id. Retry!";
+                            cout << "Invalid Id. Retry!" << endl;
                             cout << "Enter Id of user you want to (soft)delete: " << endl;
                             getline(cin, id);
                         }
