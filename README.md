@@ -9,7 +9,17 @@ for PostgreSQL.
 To create the database and add an admin, use the commands mentioned in **extra** folder. 
 
 Before running the program, make sure to edit the database variables accordingly in the **settings** header file based on your database
-setup.
+setup. 
+
+IMPORTANT: It is assumed that all entries have a unique email.
+
+#### Sample run 
+
+![Start of program](extra/start.PNG)
+
+![Creating a user](extra/createuser.PNG)
+
+![Login process](extra/userlogin.PNG)
 
 ## Reflection
 
